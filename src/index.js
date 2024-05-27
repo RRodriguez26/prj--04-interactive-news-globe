@@ -9,6 +9,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+/**
+ * TODOs (Big Feature):
+ * (1) Feature to open and close panel
+ * (2) Change clock (or multiple clock) depending on the country and how big a country is
+ * (3) Change view of the globe when clicking on a country
+ * (4) Change filter in panel have "sticky" rope attached to the panel
+ * 
+ */
 root.render(
   <React.StrictMode>
     <App />

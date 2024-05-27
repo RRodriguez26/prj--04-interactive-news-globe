@@ -19,6 +19,7 @@ import './App.css';
 const countryInfo = new CountriesLog();
 
 export default function App() {
+  // TODO: Investigate why setArticles is not used
   const [articles, setArticles] = useState([]);
   const [selectedCountry, setSelectedCountry] = useState(countryInfo.getAllCountries()[0]);
 

@@ -9,6 +9,7 @@
 
 export default class CountriesLog {
     constructor() {
+        // TODO: Potantially  add logic to return country name and others with more optimization
         this.countries = [
             { name: 'Australia', position: [149.1244, -35.3075], flag: 'flags/australia.png', code: 'au' },
             { name: 'Brazil', position: [-47.9297, -15.7801], flag: 'flags/brazil.png', code: 'br' },
