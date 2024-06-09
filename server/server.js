@@ -1,3 +1,5 @@
+import { apiKey } from './secret';
+
 const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
@@ -11,7 +13,7 @@ app.get('/api/news', async (req, res) => {
         // Example fetching from an external API
         const response = await axios.get('https://newsapi.org/v2/top-headlines', {
             params: {
-                apiKey: 'aa4aef5a1d9444b2bb789a89e29c5fe7',
+                apiKey: apiKey,
                 country: req.query.country,
                 category: req.query.category,
                 language: 'en'
